@@ -1,4 +1,6 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+/* bring in normalize.css styles */
+@import url(./components/FreedbackOptions/FeedbackOption.modul.css);
 
 body {
   margin: 0;

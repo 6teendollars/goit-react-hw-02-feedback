@@ -1,5 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+// import css from './Notification.module.css';
 
-export function Notification({ massage }) {
-  return <p>{massage}</p>;
+export function Notification({ message }) {
+  return <p>{message}</p>;
 }
+
+Notification.propTypes = {
+  message: PropTypes.string.isRequired,
+};
