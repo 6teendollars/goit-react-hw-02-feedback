@@ -4,7 +4,7 @@ import { Section } from "./Section/Section";
 import { FeedbackOptions } from "./FreedbackOptions/FeedbackOption";
 import { Statistics } from "./Statistics/Statistics";
 import { Notification } from "./Notification/Notification";
-import { TEST } from "./TEST/TEST";
+
 import React, { useState } from "react";
 
 export const App = () => {
@@ -62,7 +62,7 @@ export const App = () => {
           <Notification message="No feedback given" />
         )}
       </Section>
-      <TEST />
+
     </div>
   );
 };
